@@ -12,6 +12,8 @@ import io.appium.java_client.ios.IOSDriver;
 
 public class LaunchApp {
 	public static void main(String[] args) throws MalformedURLException{
+		
+		System.out.println("Testing Appium in Git hum");
 	DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("automationName", "Appium");	
 		capabilities.setCapability("platformName", "iOS");	
